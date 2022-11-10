@@ -1,0 +1,28 @@
+.ball {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(48, 70, 197, 0.651);
+    position: relative;
+    left: 565px;
+    top: -200px;
+    transition: transform 2s ease-in-out 0.4s;
+}
+
+.field:hover .ball {
+    transform: translate(740px, -200px);
+}
+
+img {
+    height: 500px;
+}
+
+.bat {
+    transition: transform .2s ease-in-out;
+
+}
+
+.bat:hover {
+    transform: rotate(-50deg);
+    transform-origin: 70% 0;
+}
